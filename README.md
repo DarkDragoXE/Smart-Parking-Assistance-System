@@ -7,7 +7,7 @@
 [![OLED](https://img.shields.io/badge/Display-SSD1306-orange.svg)](/)
 [![CDAC](https://img.shields.io/badge/CDAC-Workshop-purple.svg)](/)
 
-**An IoT-based dual-gate access control system with RFID authentication and ultrasonic proximity detection**
+**A microcontroller-based dual-gate access control system with RFID authentication and ultrasonic proximity detection**
 
 [Overview](#overview) | [Features](#features) | [Hardware](#hardware) | [Demos](#demonstrations) | [Author](#author)
 
@@ -17,7 +17,7 @@
 
 ## About
 
-This project was developed during the **CDAC (Centre for Development of Advanced Computing) Workshop** at VIT Vellore from November 2024 to December 2024. It demonstrates an IoT-based dual-gate access control system integrating RFID authentication and ultrasonic proximity detection.
+This project was developed during the **CDAC (Centre for Development of Advanced Computing) Workshop** at VIT Vellore from November 2024 to December 2024. It demonstrates a microcontroller-based dual-gate access control system integrating RFID authentication and ultrasonic proximity detection. There is no networking, cloud, or app component — all logic runs locally on the microcontroller.
 
 | | |
 |---|---|
@@ -29,7 +29,7 @@ This project was developed during the **CDAC (Centre for Development of Advanced
 
 ### Key Achievements
 
-- Developed IoT-based **dual-gate access control system** on Aries V3.0 board
+- Developed a **dual-gate access control system** on an Aries V2 board
 - Integrated **MFRC522 RFID module** for secure employee verification at Gate 2 with UID validation
 - Implemented **HC-SR04 ultrasonic sensor** for automated Gate 1 control based on distance (<50cm threshold)
 - Integrated **servo motors** for door actuation
@@ -108,7 +108,7 @@ A microcontroller-based access and parking gate system featuring:
 
 | Component | Model | Function |
 |-----------|-------|----------|
-| **Microcontroller** | Aries V3.0 | Main processing unit |
+| **Microcontroller** | Aries V2 | Main processing unit |
 | **Ultrasonic Sensor** | HC-SR04 | Proximity detection |
 | **RFID Reader** | MFRC522 | Card authentication |
 | **OLED Display** | SSD1306 (128×32) | Status display |
@@ -237,6 +237,6 @@ Vellore Institute of Technology (2021-2025)
 
 <div align="center">
 
-**IoT Access Control | CDAC Workshop | Arduino**
+**Access Control | CDAC Workshop | Arduino**
 
 </div>
